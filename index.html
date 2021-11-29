@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="files/favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+    <!-- Glidejs -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"
+    />
+    <!-- Devicon -->
+    <link 
+      rel="stylesheet" 
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Jairo Rubio - Portfolio</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header" id="home">
+      <!-- Navigation -->
+      <nav class="nav">
+        <div class="navigation container">
+          <div class="logo">
+            <h1>Jairo <span>R</span>ubio</h1>
+          </div>
+
+          <div class="menu">
+            <div class="top-nav">
+              <div class="logo">
+                <h1>Jairo <span>R</span>ubio</h1>
+              </div>
+
+              <div class="close">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="nav-link scroll-link">Home</a>
+                <a href="#about" class="nav-link scroll-link">About</a>
+                <a href="#personal" class="nav-link scroll-link">Personal</a>
+                <a href="#skills" class="nav-link scroll-link">Skills</a>
+                <a href="#projects" class="nav-link scroll-link">Projects</a>
+                <a href="#contact" class="nav-link scroll-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="hamburger">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Header Image -->
+      <img src="./files/front.jpg" alt="" />
+
+      <!-- Card -->
+      <div class="card">
+        <h3>Hello, my name is</h3>
+        <h1>Jairo Rubio</h1>
+        <h4>I'm a fresh graduate software engineer <br> and <span id="type1" class="typeit"></span></h4>
+        <a href="#contact" class="nav-link scroll-link">Contact me</a>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <section class="section about" id="about">
+      <div class="title">
+        <h1>About me</h1>
+      </div>
+
+      <div class="about-center container">
+        <div class="left" data-aos="fade-right" data-aos-duration="1500">
+          <img class="portrait" src="./files/about.jpg" alt="" />
+        </div>
+        <div class="right" data-aos="fade-left" data-aos-duration="1500">
+          <h1>I'm Jairo a <span id="type2"></span></h1>
+          <p>
+            I'm a fresh graduated from Universidad de Guadalajara in México. 
+            I'm passionate about bringing both the technical and visual aspects of web developing.
+            I want to be able to develop significant and useful tools and resourses while I learn everything I can.
+            I truly believe what John Maeda explains in <a href="http://lawsofsimplicity.com/" target="_blank" aria-label="open link to laws of simplicity website."> the laws of simplicity</a>, 
+            knowlegde makes things simpler.
+          </p>
+          <a href="./files/CV-Jairo.pdf" download="CV-Jairo.pdf" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- personal -->
+    <section class="section theme" id="personal">
+      <div class="title">
+        <h1>Personal and Soft Skills</h1>
+      </div>
+      <div class="personal-center container">
+        <div class="personal" data-aos="fade-right" data-aos-duration="1500">
+          <span><i class="fab fa-accusoft"></i></span>
+          <h2>Self-management and team-worker</h2>
+          <p>
+            I proud myself of being a very felxible person when it comes to working enviroments.
+            I can both manage to work completly alone, as long as my objectives and deadlines are clear,
+            as well as work in harmony with others.
+          </p>
+        </div>
+
+        <div class="personal" data-aos="fade-up" data-aos-duration="1500">
+          <span><i class="fas fa-chart-line"></i></span>
+          <h2>English</h2>
+          <p>
+            Despite Spanish being my native language
+            I consider I have an excellent understanding and using of English as well.
+          </p>
+        </div>
+        <div class="personal" data-aos="fade-left" data-aos-duration="1500">
+          <span><i class="fas fa-blender-phone"></i></span>
+          <h2>Good attitude and ambition</h2>
+          <p>
+            When it comes to work I prefer to be as clear and honest as I can,
+            I never let my emotions blind my judgement or influence too much in my decisions. 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="title">
+        <h1>Areas of Expertise</h1>
+      </div>
+
+
+      <div class="skills-center container">
+        <div class="left">
+          <h3>My skills and experience</h3>
+          <p>
+            These are some of the tools I've used in the past. 
+            I'm currently working on improving my knowlegde of 
+            vanilla Javascript and learning REACT.
+          </p>
+        </div>
+        <div class="right">
+          <div class="skills-box icon-group">
+            <div class="skill-icon">
+              <i class="devicon-html5-plain icon"></i>
+              <p>HTML5</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-css3-plain icon"></i>
+              <p>CSS3</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-javascript-plain icon"></i>
+              <p>Javascript</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-git-plain icon"></i>
+              <p>Git</p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skill-icon">
+              <i class="devicon-github-original icon"></i>
+              <p>Github</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-php-plain icon"></i>
+              <p>PHP</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-java-plain icon"></i>
+              <p>Java</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-csharp-plain icon"></i>
+              <p>C#</p>
+            </div>
+          </div>
+          <div class="skills-box">
+            <div class="skill-icon">
+              <i class="devicon-mysql-plain icon"></i>
+              <p>MySQL</p>
+            </div>
+            <div class="skill-icon">
+              <i class="devicon-vscode-plain icon"></i>
+              <p>VS Code</p>
+            </div>
+          </div>
+          <div class="skills-box">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects -->
+    <section class="section theme" id="projects">
+      <div class="title">
+        <h1>My projects</h1>
+      </div>
+
+      <div class="projects-center container">
+        <div class="glide">
+          <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <div class="project">
+                  <div class="img-cover">
+                    <img src="./files/profile1.jpg" alt="" />
+                  </div>
+
+                  <h3>Project</h3>
+                  <p>
+                    description
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="project">
+                  <div class="img-cover">
+                    <img src="./files/profile2.jpg" alt="" />
+                  </div>
+
+                  <h3>Project</h3>
+                  <p>
+                    description
+                  </p>
+                </div>
+              </li>
+              <li class="glide__slide">
+                <div class="project">
+                  <div class="img-cover">
+                    <img src="./files/profile3.jpg" alt="" />
+                  </div>
+
+                  <h3>Project</h3>
+                  <p>
+                    description
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="section contact" id="contact">
+      <div class="title">
+        <h1>Contact me</h1>
+      </div>
+
+      <div class="contact-center container">
+        <div class="left" data-aos="fade-dowm" data-aos-duration="1500">
+          
+          <div>
+            <span class="icon"><i class="fas fa-user"></i></span>
+            <span class="content">
+              <h3>Name</h3>
+              <span>Jairo Rubio Hernández</span>
+            </span>
+          </div>
+
+          <div>
+            <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
+            <span class="content">
+              <h3>Location</h3>
+              <span>Guadalajara, México</span>
+            </span>
+          </div>
+
+          <div>
+            <span class="icon"><i class="fas fa-envelope"></i></span>
+            <span class="content">
+              <h3>Email</h3>
+              <span>jairorh94@outlook.com</span>
+            </span>
+          </div>
+        </div>
+
+        <div class="right" data-aos="fade-up" data-aos-duration="1500">
+          <form
+            action="https://formsubmit.co/jairorh94@outlook.com"
+            method="POST"
+            class="form"
+          >
+            <h2>Message Me</h2>
+            <div>
+              <input type="text" placeholder="Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Your message"
+            >
+            </textarea>
+            <button type="submit" class="btn btn-form">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2021 | Designed and coded by <span>Jairo Rubio</span></p>
+    </footer>
+
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- TypeIt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- Glidejs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- My Script -->
+    <script src="index.js"></script>
+  </body>
+</html>
